@@ -14,7 +14,9 @@ public interface DoctorMenu {
 			System.out.println("5: Accept or Decline Appointment Requests");
 			System.out.println("6: View Upcoming Appointments");
 			System.out.println("7: Record Appointment Outcome");
-			System.out.println("8: Logout");
+			System.out.println("8: Register Patient");
+			System.out.println("9: Discharge Patient");
+			System.out.println("10: Logout");
 			choice = sc.nextInt();
 			
 			switch (choice) {
@@ -33,9 +35,13 @@ public interface DoctorMenu {
 			case 7: 
 				break;
 			case 8: 
+				break;
+			case 9: 
+				break;	
+			case 10: 
 				System.out.println("Logging out ….");
 			}
-		} while (choice < 8);
+		} while (choice < 10);
 	    return;
 	}
 }
