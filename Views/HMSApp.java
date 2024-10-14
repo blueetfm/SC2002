@@ -13,6 +13,7 @@ public interface HMSApp{
 			
 			switch (choice) {
 			case 1: 
+			// should change to a UserMenu where users can enter their hospitalID and change password
 				PatientMenu.PatientMenu();
 			case 2: 
 				System.out.println("Program terminating ….");
