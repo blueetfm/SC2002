@@ -39,6 +39,7 @@ public interface PatientMenu {
 				System.out.println("Program terminating ….");
 			}
 		} while (choice < 9);
+		sc.close();
         return;
 	}
 }

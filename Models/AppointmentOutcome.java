@@ -23,11 +23,6 @@ public class AppointmentOutcome {
         this.notes = notes;
     }
 
-    // method overloading
-    public void addMedication(String medicine, String status){
-        medication.put(medicine, status);
-    }
-
     public void addMedication(String medicine){
         medication.put(medicine, "pending");
     }

@@ -28,6 +28,7 @@ public interface PharmacistMenu {
 				System.out.println("Logging out ….");
 			}
 		} while (choice < 5);
+		sc.close();
 	    return;
 	}
 }
