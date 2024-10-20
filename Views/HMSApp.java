@@ -1,10 +1,15 @@
 package Views;
 import java.util.*;
+import java.io.*;
 
 public interface HMSApp{
     public static void main(String[] args) {
 		int choice;
 		Scanner sc = new Scanner(System.in);
+		File csvFile = new File("..", "data/User_List.csv");
+
+		FileReader fileReader
+                = new FileReader(csvFile);
 		do {
 			System.out.println("Perform the following methods:");
 			System.out.println("1: Log In");
