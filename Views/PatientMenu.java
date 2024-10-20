@@ -37,6 +37,8 @@ public class PatientMenu implements Menu {
 				break;
 			case 9: 
 				System.out.println("Program terminating ….");
+			default:
+				break;
 			}
 		} while (choice < 9);
 		sc.close();
