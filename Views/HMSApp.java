@@ -2,7 +2,7 @@ package Views;
 import java.util.*;
 import java.io.*;
 
-public interface HMSApp{
+public class HMSApp{
     public static void main(String[] args) {
 		int choice;
 		Scanner sc = new Scanner(System.in);
