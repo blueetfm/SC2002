@@ -2,8 +2,8 @@ package Views;
 
 import java.util.Scanner;
 
-public interface AdministratorMenu {
-	public static void AdministratorMenu() {
+public class AdministratorMenu implements Menu {
+	public void showMenu() {
 		int choice;
 		Scanner sc = new Scanner(System.in);
 		do {

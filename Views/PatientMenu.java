@@ -1,8 +1,8 @@
 package Views;
 import java.util.Scanner;
 
-public interface PatientMenu {
-	public static void PatientMenu() {
+public class PatientMenu implements Menu {
+	public void showMenu() {
 		int choice;
 		Scanner sc = new Scanner(System.in);
 		do {

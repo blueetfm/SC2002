@@ -14,7 +14,7 @@ import Views.PatientMenu;
 // treatments or blood type.. 
 
 
-public class Patient extends Person implements PatientMenu {
+public class Patient extends Person {
     protected String patientID;
     protected String bloodType;
     protected List<MedicalRecord> medicalHistory;
